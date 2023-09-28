@@ -192,3 +192,102 @@ margin-top: -72px;
 margin-left: 1020px;
 
 }
+.card_1{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 1110px;
+height: 128px;
+top: 1709px;
+left: 165px;
+background: #F2F5F9;
+
+}
+.card_2{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 1110px;
+height: 128px;
+top: 1709px;
+left: 165px;
+background: #F2F5F9;
+
+}
+.card_3{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 1110px;
+height: 128px;
+top: 1709px;
+left: 165px;
+background: #F2F5F9;
+
+}
+.card_4{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 1110px;
+height: 128px;
+top: 1709px;
+left: 165px;
+background: #F2F5F9;
+
+}
+.card_5{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 1110px;
+height: 128px;
+top: 1709px;
+left: 165px;
+background: #F2F5F9;
+
+}
+.card_6{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 1110px;
+height: 128px;
+top: 1709px;
+left: 165px;
+background: #F2F5F9;
+
+}
+.card_1_p1{
+    padding-top: 40px;
+    font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+text-align: left;
+color: #495567;
+margin-left: 50px;
+
+
+}
+.card_1-p1{
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #495567;
+margin-left: 50px;
+
+}
+.card_1_btn{
+    margin-top: -50px;
+    margin-left: 965px;
+    position: absolute;
+    padding: 14px 40px;
+    border: none;
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
+}
