@@ -95,13 +95,17 @@ color: #939CAA;
 
 }
 .btn_1{
+    margin-top: 750px;
+    margin-left: 165px;
     position: absolute;
-    margin-top: 100px;
-    width: 180px;
-height: 53px;
-top: 742px;
-left: 165px;
-background: #FCB72B;
-color:white;
-border:#FCB72B;
+    padding: 14px 40px;
+    border: none;
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
 }
