@@ -1,0 +1,39 @@
+.header {
+    margin: 0 auto;
+    width: 1440px;
+    height: 96px;
+    padding: 0 167px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 58px;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+main{
+    margin: 0 auto;
+    width: 1440px;
+    height: 96px;
+    padding: 0 167px;
+}
+.section-first{
+    
+}
