@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(/fonts/LexendDeca-Regular.ttf) format(trurtype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'Space Mono';
+    src: url(/fonts/SpaceMono-Bold.ttf) format(trurtype);
+    font-weight: 700;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
