@@ -67,6 +67,7 @@
 }
 
 .section--one__row {
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -96,4 +97,140 @@
     font-weight: 400;
     line-height: 25px;
     margin-top: 27px;
+}
+
+.instructor__row {
+    margin-bottom: 155px;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instructor__card {
+    width: 440px;
+}
+
+.instructor__card h4 {
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+.instructor__card p {
+    margin-top: 24px;
+    color: #939CAA;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.instructor__btn {
+    margin-top: 40px;
+}
+
+.circle__card {
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+}
+
+.circle__one {
+    background-image: url(/images/section_two_img-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.circle__two {
+    background-image: url(/images/section_two_img-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.circle__three {
+    background-image: url(/images/section_two_img-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer__banner {
+    margin: 0 auto;
+    margin-top: 250px;
+    width: 1440px;
+    height: 300px;
+    padding: 0 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(73, 85, 103, 1);
+    background-image: url(/images/footer_banner_bg.png);
+}
+
+.footer__title {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+footer {
+    max-width: 1440px;
+    height: 96px;
+    margin: 0 auto;
+    background-color: #333A44;
+}
+
+.footer__container {
+    max-width: 1110px;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 58px;
+}
+
+.footer__menu img {
+    margin-top: 34px;
+    width: 107.817px;
+    height: 28.56px;
+}
+
+.footer__menu ul {
+    padding-top: 36px;
+    display: flex;
+    gap: 32px;
+}
+
+.footer__menu a {
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 25px; 
+}
+
+.social__media {
+    padding-top: 36px;
+    display: flex;
+    gap: 24px;
+}
+
+.social__media img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
