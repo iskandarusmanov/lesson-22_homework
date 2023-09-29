@@ -424,7 +424,7 @@ header {
     max-width: 1440px;
     height: 300px;
     margin-top: 160px;  
-    background-image: url('/lesson-22_homework/images/last-picture.jpg');
+    background-image: url(../images/last-picture.jpg);
     background-position: center;
     block-size: contain;
     background-repeat: no-repeat;
