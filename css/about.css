@@ -1,0 +1,484 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    max-width: 1440px;
+    height: 96px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1110px;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    gap: 58px;
+}
+
+.header__menu img {
+    margin-top: 34px;
+    width: 107.817px;
+    height: 28.56px;
+}
+
+.header__menu ul {
+    padding-top: 36px;
+    display: flex;
+    gap: 32px;
+}
+
+.header__menu a {
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 25px; 
+}
+
+.header__button {
+    margin-top: 22px;
+}
+
+.header__button button {
+    width: 180px;
+    height: 53px;
+    border: none;
+    background-color: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    cursor: pointer; 
+}
+
+.header__button button:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.first__section {
+    max-width: 1440px;
+    max-height: 1300px;
+    margin: 0 auto;
+}
+
+.first__container {
+    margin: 0 auto;
+    max-width: 1110px;
+    max-height: 1300px;
+    position: relative;
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    left: -165px;
+}
+
+.first__title {
+    padding-top: 72px;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px; 
+    letter-spacing: -2.5px;
+}
+
+.first__row {
+    display: flex;
+    gap: 250px;
+}
+
+.first__row h3 {
+    padding-top: 317px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+.first__row p, .second__row p {
+    padding-top: 24px;
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.first__row img {
+    margin-top: 192px;
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+}
+
+.second__row {
+    display: flex;
+    gap: 250px;
+}
+
+.second__row h3 {
+    padding-top: 230px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2.143px;
+}
+
+.second__row img {
+    margin-top: 77px;
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;  
+}
+
+.pointer {
+    position: absolute;
+    top: 627px;
+    right: -130px;
+}
+
+.pointer__arrow {
+    position: absolute;
+    top: 590px;
+    right: 571px;
+}
+
+.pointer2 {
+    position: absolute;
+    top: 850px;
+    left: -166px;
+}
+
+.pointer__arrow2 {
+    position: absolute;
+    top: 913px;
+    left: 151px;
+}
+
+.circle, .circle2 {
+    width: 445px;
+    height: 445px;
+    border: none;
+    background-color: #E5ECF4;
+    border-radius: 50%;
+}
+
+.circle {
+    position: absolute;
+    top: 320px;
+    right: -460px;
+}
+
+.circle2 {
+    position: absolute;
+    top: 842px;
+    left: -505px;
+}
+
+.second__section {
+    max-width: 1440px;
+    max-height: 740px;
+    margin: 0 auto;
+}
+
+.second__container {
+    max-width: 1110px;
+    max-height: 740px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.second__container h2 {
+    padding-top: 120px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2.143px;
+}
+
+.card__row {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 470px;
+    border: none;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.card h3 {
+    padding-top: 95px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+}
+
+.card p {
+    padding-top: 27px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.ellipse1, .ellipse2, .ellipse3 {
+    width: 96px;
+    height: 96px;
+    border: none; 
+    border-radius: 50%;
+    background-color: #FCB72B;
+    padding-top: 34px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -1.071px;
+}
+
+.ellipse1 {
+    position: absolute;
+    top: 485px;
+    left: 130px;
+}
+
+.ellipse2 {
+    position: absolute;
+    top: 485px;
+    left: 510px;
+}
+
+.ellipse3 {
+    position: absolute;
+    top: 485px;
+    left: 890px;
+}
+
+.third__section {
+    max-width: 1440px;
+    max-height: 1110px;
+    margin: 0 auto;
+}
+
+.third__container {
+    width: 1110px;
+    height: 1110px;
+    padding-top: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.third__container h2 {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+.third__row {
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third__title {
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.786px;
+}
+
+.field__card1 {
+    width: 730px;
+    height: 191px;
+    border: none;
+    background-color: #F2F5F9;
+}
+
+.field__descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field__descr h2 {
+    padding-top: 32px;
+    padding-left: 40px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
+
+.field__card1 p {
+    padding-top: 24px;
+    padding-left: 40px;
+    color: #495567;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.field__descr img {
+    padding-top: 42px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.field__card {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 730px;
+    height: 92px;
+    border: none;
+    background-color: #F2F5F9;
+}
+
+.field__card h2 {
+    padding-top: 32px;
+    padding-left: 40px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
+
+.mark {
+    padding-top: 42px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.mark3 {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.mark4 {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.last__section {
+    margin-top: 160px;
+    max-width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.last__container {
+    max-width: 1440px;
+    height: 300px;
+    margin-top: 160px;  
+    background-image: url('/lesson-22_homework/images/last-picture.jpg');
+    background-position: center;
+    block-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer {
+    max-width: 1440px;
+    height: 96px;
+    margin: 0 auto;
+    background-color: #333A44;
+}
+
+.footer__container {
+    max-width: 1110px;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 58px;
+}
+
+.footer__menu img {
+    margin-top: 34px;
+    width: 107.817px;
+    height: 28.56px;
+}
+
+.footer__menu ul {
+    padding-top: 36px;
+    display: flex;
+    gap: 32px;
+}
+
+.footer__menu a {
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 25px; 
+}
+
+.social__media {
+    padding-top: 36px;
+    display: flex;
+    gap: 24px;
+}
+
+.social__media img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
