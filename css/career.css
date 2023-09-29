@@ -193,7 +193,7 @@ margin-left: 1020px;
 
 }
 .card_1{
-    margin-left: 165px;
+    margin-left: 135px;
     margin-top: 50px;
     width: 1110px;
 height: 128px;
@@ -202,56 +202,7 @@ left: 165px;
 background: #F2F5F9;
 
 }
-.card_2{
-    margin-left: 165px;
-    margin-top: 50px;
-    width: 1110px;
-height: 128px;
-top: 1709px;
-left: 165px;
-background: #F2F5F9;
 
-}
-.card_3{
-    margin-left: 165px;
-    margin-top: 50px;
-    width: 1110px;
-height: 128px;
-top: 1709px;
-left: 165px;
-background: #F2F5F9;
-
-}
-.card_4{
-    margin-left: 165px;
-    margin-top: 50px;
-    width: 1110px;
-height: 128px;
-top: 1709px;
-left: 165px;
-background: #F2F5F9;
-
-}
-.card_5{
-    margin-left: 165px;
-    margin-top: 50px;
-    width: 1110px;
-height: 128px;
-top: 1709px;
-left: 165px;
-background: #F2F5F9;
-
-}
-.card_6{
-    margin-left: 165px;
-    margin-top: 50px;
-    width: 1110px;
-height: 128px;
-top: 1709px;
-left: 165px;
-background: #F2F5F9;
-
-}
 .card_1_p1{
     padding-top: 40px;
     font-family: Space Mono;
@@ -290,4 +241,71 @@ margin-left: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; 
+}
+.cointainer_footer{
+    
+}
+.footer_img{
+    width: 1315px;
+    height: 300px;
+    top: 2757px;
+    
+}
+.footer_h3{
+    position: absolute;
+    font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color:#F2F5F9;
+margin-top: 100px;
+margin-left: 165px;
+}
+.footer {
+    position: absolute;
+    /* margin: 0 auto; */
+    width: 1315px;
+    height: 96px;
+    padding: 0 167px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333A44;
+    margin-top: -10px;
+
+}
+.footer__nav{
+    display: flex;
+    gap: 58px;
+}
+.media{
+    display: flex;
+    gap: 30px;
+}
+.footer-btn_1{
+    border-radius: 2px;
+    border:#E5ECF4;
+    margin-top: -220px;
+    position: absolute;
+    width: 159px;
+height: 56px;
+top: 2879px;
+left: 916px;
+background: #E5ECF4;
+
+}
+.footer-btn_2{
+    margin-left: 200px;
+    border-radius: 2px;
+    border:#E5ECF4;
+    margin-top: -220px;
+    position: absolute;
+    width: 159px;
+height: 56px;
+top: 2879px;
+left: 916px;
+background: #E5ECF4;
+
 }
